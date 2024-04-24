@@ -150,7 +150,7 @@ header {
   
   button {
     padding: 10px 20px;
-    background-color: color(from green srgb r g b / 0.5);
+    background-color: color(green srgb r g b / 0.5);
     color: ivory;
     border: none;
     border-radius: 15px;
@@ -159,7 +159,7 @@ header {
   
   button[type="reset"] {
     background-color: #124559;
-    background-color: color-mix(in srgb, #34c9eb 75%, white);
+    background-color: color-mix(#34c9eb 75%, white);
     min-width: 15px;
     max-width: 40in; 
     height: 10px;
@@ -218,4 +218,89 @@ header {
       border-radius: 5px;
     }
   }
+
+/* Class Selector (.class) */
+.ex {
+  color: blue;
+}
+
+/* ID Selector (#id) */
+#attendance {
+  background-color: lightgray;
+}
+
+/* Universal Selector (*) */
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* Element Selector (element) */
+ul {
+  list-style-type: square;
+}
+
+/* Attribute Selector (e.g. [attribute=foo]) */
+[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Pseudo-class Selector (e.g. p:hover) */
+ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Selector List (element, element) */
+h2, h3 {
+  color: #FF5733;
+}
+
+/* Combinators */
+/* Descendant Combinator (element element) */
+#recap p {
+  font-style: italic;
+}
+
+/* Child Combinator (element > element) */
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5e050;
+}
+
+/* General sibling combinator (element ~ element) */
+#recap ~ section {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Adjacent sibling combinator (element + element) */
+h2 + p {
+  font-weight: bold;
+}
+
+/* Combining Two Selectors (element.class) */
+h2#introduction {
+  color: green;
+}
+
+/* New Selectors */
+/* :has() */
+section:has(p) {
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+/* Nested Selectors */
+#misc .grid .ex {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+/* Custom Font */
+body {
+  font-family: Jersey, Arial, sans-serif;
+}
+
+
   
