@@ -217,6 +217,12 @@ header {
       border-width: 3px;
       border-radius: 5px;
     }
+    video{
+      margin-bottom: 10px;
+    }
+    img{
+      margin-bottom: 10px;
+    }
   }
 
   /* selectors */
