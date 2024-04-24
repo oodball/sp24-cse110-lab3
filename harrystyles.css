@@ -220,7 +220,6 @@ header {
   }
 
   /* selectors */
-
 .ex {
   color: #957595;
 }
@@ -230,7 +229,11 @@ header {
 }
 
 * {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul li:hover {
+  background-color: rgba(10, 108, 92, 0.1);
 }
 
 h2, h3 {
