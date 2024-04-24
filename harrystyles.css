@@ -223,13 +223,13 @@ header {
     video {
       width: auto; 
       height: auto; 
-      position: fixed;
+      /* position: fixed; */
       margin-bottom: 20px; 
     }
     img {
       width: auto;
       height: auto;
-      position: fixed;
+      /* position: fixed; */
       margin-bottom: 10px;
     }
   }
