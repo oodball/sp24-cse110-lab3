@@ -221,13 +221,13 @@ header {
       border-radius: 5px;
     }
     video {
-      width: 100%; 
+      width: fit-content; 
       height: auto; 
       display: block; 
       margin-bottom: 20px; 
     }
     img {
-      width: 100%;
+      width: fit-content;
       height: auto;
       display: block;
       margin-bottom: 10px;
